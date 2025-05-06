@@ -2,7 +2,7 @@
 
 [![Scientific Reports](https://img.shields.io/badge/Scientific_Reports-DOI%3A_10.1038%2Fs41598--024--61189--x-brightgreen.svg)](https://doi.org/10.1038/s41598-025-98849-5)  
 
-Authors: Longze Li, John Merickel, Yalei Tang, Rongjie Song, Joshua Rittenhouse, Aleksandar Vakanski, Fei Xu
+Authors: Longze Li, John W. Merickel, Yalei Tang, Rongjie Song, Joshua E. Rittenhouse, Aleksandar Vakanski, Fei Xu
 
 With the increasing need for mechanical characterization of small-scale components, particularly in scenarios where only limited material is available—such as in nuclear reactors—the study explores the role of machine learning (ML) in understanding and predicting specimen size effects in tensile testing. Traditional models and guidelines such as Miniaturized Tensile Test (MTT) have established practices for sub-sized specimens, but most prior studies relied on small datasets and analytical models with limited generalizability. To overcome these challenges, we constructed a comprehensive database of 1,050 tensile test records from peer-reviewed studies and introduced a machine learning framework capable of predicting key tensile properties like yield strength, ultimate tensile strength, and elongation for sub-sized specimens of stainless steel 316.
 
@@ -28,7 +28,7 @@ Our work presents the first known application of ML to predict tensile propertie
 
 
 ## 📊 Data and Evaluation Metrics
-The used dataset of tensile properties ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)) comprises 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties.  
+ - [Tensile Properties Dataset](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded our previous dataset with tensile test properties of full-sized Stainless Steel 316 specimens. The expanded dataset consists of 1,473 tensile test records.
 
 ## 🔨 Requirements
 
