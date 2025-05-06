@@ -16,10 +16,12 @@ In this study, we introduce a machine learning-based approach for predicting key
  - [**Tensile Properties Dataset**](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from the published literature. Each record includes 55 features covering material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded the dataset by adding tensile test records for full-sized Stainless Steel 316 specimens, bringing the total number to 1,473 records.
 
 ## Machine Learning Models
+We developed machine learning models for both single-point estimates and uncertainty quantification tasks. The following table summarizes the model types and specific algorithms used in this study.
+
 | Model Type                 | Task                                | Models Used                                                                 |
 |---------------------------|-------------------------------------|------------------------------------------------------------------------------|
-| Regression       | Single-point Estimates             | k-Nearest Neighbors (kNN), Support Vector Machine (SVM), Decision Trees, Random Forest, Extreme Gradient Boosting (XGBoost), Gaussian Process Regression (GPR), Artificial Neural Network (ANN) |
-| Uncertainty Quantification| Estimate confidence in predictions  | Quantile Regression, Natural Gradient Boosting (NGBoost), Gaussian Process Regression (GPR), Deep Ensemble, Monte Carlo Dropout (MC Dropout), Bayesian Neural Networks (Variational Inference), Bayesian Neural Networks (MCMC) |
+| Property prediction       | Single-point estimates             | k-Nearest Neighbors (kNN), Support Vector Machine (SVM), Decision Trees, Random Forest, Extreme Gradient Boosting (XGBoost), Gaussian Process Regression (GPR), Artificial Neural Networks (ANN) |
+| Uncertainty quantification| Confidence interval predictions  | Quantile Regression, Natural Gradient Boosting (NGBoost), Gaussian Process Regression (GPR), Deep Ensemble, Monte Carlo Dropout (MC Dropout), Bayesian Neural Networks - Variational Inference, Bayesian Neural Networks - Markov Chain Monte Carlo |
 
 
 ## 🔨 Requirements
