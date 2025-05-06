@@ -9,14 +9,8 @@ Advancing the understanding of material behavior and phenomena related to size e
 In this study, we introduce a machine learning-based approach for predicting key tensile properties such as yield strength, ultimate tensile strength, and elongation for sub-sized specimens of Stainless Steel 316, and we develop methods for uncertainty quantification of predicted properties. Furthermore, we conduct an experimental validation of the reported critical values for the dimensions and geometry of sub-sized specimens, and we validated existing analytical models for correlating total elongation between sub-sized and standard-sized specimens. Our findings demonstrate the potential of machine learning techniques to enhance understanding of specimen size-dependent material behavior and highlight the need for coordinated efforts in developing large, open-source databases of mechanical testing data to support future research.
 
 ## 📂 Repository Organization
-- **Figures:**  contains codes related to the application of Machine Learning methods for predicting tensile properties in Figure 2 and Figure 3.<br>
-  k-Nearest Neighbors (kNN), Support Vector Machine (SVM), Decision Tree, Random Forest (RF), XGBoost, Gaussian Process Regression (GPR), Artificial Neural Network (ANN)
-
-- **Tables:**  contains codes related to the application of Machine Learning methods for predicting tensile properties and uncertainty quantification in Table 3, Table 4, Table 5 and Table 6.<br>
-  k-Nearest Neighbors (kNN), Support Vector Machine (SVM), Decision Tree, Random Forest (RF), XGBoost, Gaussian Process Regression (GPR), Artificial Neural Network (ANN)
-  Quantile Regression, NGBoost (Natural Gradient Boosting), Monte Carlo Dropout, Deep Ensemble, Bayesian Neural Network (Variational Inference), and Bayesian Neural Network (MCMC sampling)
-
----
+- **Figures:**  This directory contains code for reproducing the figures in the article. The article includes 21 figures, and the notebook titles in this directory correspond to the respective figure numbers. <br>
+- **Tables:**  This directory contains code related to the results presented in Tables 3 to 6 of the article. The notebook titles correspond to those specific tables. <br>
 
 ## 📊 Data and Evaluation Metrics
  - [Tensile Properties Dataset](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded our previous dataset with tensile test properties of full-sized Stainless Steel 316 specimens. The expanded dataset consists of 1,473 tensile test records.
