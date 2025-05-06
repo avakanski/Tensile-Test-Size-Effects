@@ -12,8 +12,8 @@ In this study, we introduce a machine learning-based approach for predicting key
 - [**Figures**](Figures/): This directory contains code for reproducing the figures in the article. The article includes 21 figures, and the notebook titles in this directory correspond to the respective figure numbers. <br>
 - [**Tables**](Tables/): This directory contains code related to the results presented in Tables 3 to 6 of the article. The notebook titles correspond to those specific tables. <br>
 
-## 📊 Data and Evaluation Metrics
- - [Tensile Properties Dataset](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded our previous dataset with tensile test properties of full-sized Stainless Steel 316 specimens. The expanded dataset consists of 1,473 tensile test records.
+## 📊 Data
+ - [**Tensile Properties Dataset**](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from the published literature. Each record includes 55 features covering material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded the dataset by adding tensile test records for full-sized Stainless Steel 316 specimens, bringing the total number to 1,473 records.
 
 ## Machine Learning Models
 | Model Type                 | Task                                | Models Used                                                                 |
