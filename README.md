@@ -62,7 +62,7 @@ If you use the codes or the methods in your work, please cite the following <a h
 
 
 ## 🚩 License
-<a href="License.txt">MIT License</a>
+<a href="LICENSE.txt">MIT License</a>
 
 ## 👏 Acknowledgments
 This work was supported through the INL Laboratory Directed Research& Development (LDRD) Program under DOE Idaho Operations Office Contract DE-AC07-05ID14517 (project tracking number 24A1081-149). Accordingly, the publisher, by accepting the article for publication, acknowledges that the U.S. Government retains a nonexclusive, paid-up, irrevocable, worldwide license to publish or reproduce the published form of this manuscript or allow others to do so, for U.S. Government purposes.
