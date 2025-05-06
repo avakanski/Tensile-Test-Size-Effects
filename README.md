@@ -26,7 +26,7 @@ Our work presents the first known application of ML to predict tensile propertie
 
 
 ## 📊 Data and Evaluation Metrics
-The dataset comprises 1,050 tensile test records of sub-sized stainless steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. For model evaluation, point prediction models were assessed using the coefficient of determination (R²) and root-mean-square error (RMSE), while uncertainty quantification (UQ) models were evaluated based on the coverage probability of 95% confidence intervals. 
+The used dataset of tensile properties([link1](https://doi.org/10.1038/s41598-024-61189-x), [link2](https://doi.org/10.24435/materialscloud:ws-8j)) comprises 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties.  
 
 ## 🔨 Requirements
 
