@@ -20,15 +20,15 @@ Our work presents the first known application of ML to predict tensile propertie
 
 ---
 
+## 📊 Data and Evaluation Metrics
+ - [Tensile Properties Dataset](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded our previous dataset with tensile test properties of full-sized Stainless Steel 316 specimens. The expanded dataset consists of 1,473 tensile test records.
+
 ## Machine Learning Models
 | Model Type                 | Task                                | Models Used                                                                 |
 |---------------------------|-------------------------------------|------------------------------------------------------------------------------|
-| Regression       | Single-point estimates YS, UTS, UE, TE             | k-Nearest Neighbors (kNN), Support Vector Machine (SVM), Decision Trees, Random Forest, Extreme Gradient Boosting (XGBoost), Gaussian Process Regression (GPR), Artificial Neural Network (ANN) |
+| Regression       | Single-point Estimates             | k-Nearest Neighbors (kNN), Support Vector Machine (SVM), Decision Trees, Random Forest, Extreme Gradient Boosting (XGBoost), Gaussian Process Regression (GPR), Artificial Neural Network (ANN) |
 | Uncertainty Quantification| Estimate confidence in predictions  | Quantile Regression, Natural Gradient Boosting (NGBoost), Gaussian Process Regression (GPR), Deep Ensemble, Monte Carlo Dropout (MC Dropout), Bayesian Neural Networks (Variational Inference), Bayesian Neural Networks (MCMC) |
 
-
-## 📊 Data and Evaluation Metrics
- - [Tensile Properties Dataset](Tensile_Properties_Data.xlsx): The used dataset in this study is based on the dataset of tensile properties created by our team ([link1](https://www.nature.com/articles/s41597-024-04329-2), [link2](https://doi.org/10.24435/materialscloud:ws-8j)), comprising 1,050 tensile test records of sub-sized Stainless Steel 316 specimens collected from published literature. Each record includes 55 features spanning material type, specimen geometry, heat treatment, testing conditions, and measured mechanical properties. In this work, we expanded our previous dataset with tensile test properties of full-sized Stainless Steel 316 specimens. The expanded dataset consists of 1,473 tensile test records.
 
 ## 🔨 Requirements
 
